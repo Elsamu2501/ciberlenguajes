@@ -1,0 +1,35 @@
+body{
+    background-color: blanchedalmond;
+}
+
+@media (min-width:576px) {
+ 
+    h1{color: blue; 
+    
+        text-align: center;
+    
+    
+    }
+ body{
+
+   background: orange
+ }
+
+}
+
+
+@media (min-width:992px){
+
+body{
+    background: yellow
+}
+h1{color: black;
+text-align: center;
+background-color: aliceblue;
+}
+}
+
+img{
+    width: 100%
+}
+
