@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+
+body{
+    background-color: antiquewhite;
+    background-image: url(Imagen/animales.png) ;
+      
+}
+
+header{
+    padding: 15px;
+    background:rgb(255, 255, 255) url(imagen/DC.png) no-repeat center !important
+
+}
+h1 {
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "Nerko One", cursive;
+
+}
+
+p { 
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: 16px
+}
+
+article {
+    background-color: white;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    font-family: "Nerko One", cursive;
+}
+
+article h1 {
+    background-color: white;
+    color: aqua;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+
+img {
+    width: 70%;
+}
+
+#logo {
+    background-color: rgb(240, 176, 38);
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    -webkit-border-radius: 200px 0 200px 0;
+    border-radius: 200px 0 200px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+}
+#logo:hover{
+    transition: all 500ms ease-in-out;
+    transform: scale(1.5) rotate(360deg);
+
+
+}
+.destacado {
+    font-style: italic;
+    text-align: left;
+    margin-left: 10%;
+    color: blue;
+    padding-bottom: 30px;
+    background-color: rgb(255, 19, 255);
+}
+
+.propiedades {
+    background-color: rgb(10, 28, 196);
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+
+    margin: 40px;
+
+    border-top: 4px red solid;
+    border-right: 10px blue dashed;
+    border-bottom: 3px orange dotted;
+    border-left: purple 5px double;
+}
+
+nav a:link, nav a:visited {
+    color: steelblue;
+    text-decoration: none;
+    border: solid 1px black;
+    padding: 5px 10px;
+
+}
+
+nav a:hover {
+    background-color: aqua;
+    color: wheat;
+}
+
+nav a :active {
+    background-color: black;
+}
+
+nav li {
+    display: inline;
+}
+
+.detodito {
+    width: 1200px;
+   margin: 0 auto;
+    background-color: white
+
+}
+
+.cabezote {
+    background-color: blueviolet;
+}
+
+.caja {
+    background-color: aqua;
+}
+
+footer{
+    color:black !important;
+    font-family: "Nerko One", cursive;
+}
